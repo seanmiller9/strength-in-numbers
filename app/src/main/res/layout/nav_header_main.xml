@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/nav_header"
+              android:layout_width="match_parent"
+              android:layout_height="160dp"
+              android:background="@color/colorPrimaryDark"
+              android:clickable="true"
+              android:focusable="true"
+              android:gravity="bottom"
+              android:orientation="vertical"
+              android:padding="16dp"
+              android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+            android:id="@+id/nav_header_imageView"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher" />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/acount_name"
+            android:textSize="16dp"
+            android:text="@string/app_creator"
+            android:paddingTop="10dp"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/account_email"
+            android:textSize="16dp"
+            android:text="202.sean.202@gmail.com"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
